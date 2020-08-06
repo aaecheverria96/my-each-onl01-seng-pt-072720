@@ -6,4 +6,5 @@ def my_each (array)
     i++
   end
   array #do not call a method within itself!!!!!
-end
+  end
+end 
