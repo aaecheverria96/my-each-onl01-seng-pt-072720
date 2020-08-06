@@ -5,5 +5,5 @@ def my_each (array)
     yield(array[i])
     puts i
   end
-  my_each
+  array #do not call a method within itself!!!!!
 end
