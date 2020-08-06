@@ -4,5 +4,6 @@ def my_each (array)
   while i > 1 && i < 4
     yield(array[i])
     i++
+  end 
   array #do not call a method within itself!!!!!
 end
